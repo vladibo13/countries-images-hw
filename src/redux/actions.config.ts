@@ -1,0 +1,4 @@
+export default {
+	GET_ALL_COUNTRIES: 'GET_ALL_COUNTRIES',
+	ADD_IMAGE: 'ADD_IMAGE'
+};
