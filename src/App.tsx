@@ -10,6 +10,7 @@ const App: React.FC = () => {
 		<div>
 			<Switch>
 				<Route exact path="/" component={CountriesAddImage} />
+				<Route exact path="/countries" component={CountriesImageList} />
 			</Switch>
 		</div>
 	);

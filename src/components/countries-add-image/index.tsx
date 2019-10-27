@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { getAllCountries, addImageCountry } from '../../redux/actions';
+import { Link } from 'react-router-dom';
 
 class CountriesAddImage extends React.Component<any, any> {
 	constructor(props: any) {
@@ -30,6 +31,7 @@ class CountriesAddImage extends React.Component<any, any> {
 		const { countries } = this.props;
 		return (
 			<div className="container ">
+				<Link to="/countries">Countries</Link>
 				<h1 className="text-center my-5 display-4">Add An Image</h1>
 				<form onSubmit={this.onSubmitHandler}>
 					<select
